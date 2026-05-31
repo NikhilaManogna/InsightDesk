@@ -1,0 +1,17 @@
+streamlit>=1.35
+pandas>=2.2
+plotly>=5.22
+SQLAlchemy>=2.0
+psycopg2-binary>=2.9
+duckdb>=1.0
+duckdb-engine>=0.13
+sqlglot>=25.0
+groq>=0.9
+requests>=2.31
+python-dotenv>=1.0
+pytest>=8.2
+sentence-transformers>=3.0
+faiss-cpu>=1.8
+redis>=5.0
+openpyxl>=3.1
+pyarrow>=15.0
