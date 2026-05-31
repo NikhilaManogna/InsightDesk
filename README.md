@@ -377,19 +377,3 @@ Coverage includes:
 * Startup checks
 
 ---
-
-## Screenshots
-
-### Dashboard
-
-![Dashboard](docs/images/dashboard.png)
-
-### Generated SQL
-
-![Generated SQL](docs/images/sql.png)
-
-### Results & Insights
-
-![Results](docs/images/results.png)
-
----
