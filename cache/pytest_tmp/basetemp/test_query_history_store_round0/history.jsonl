@@ -1,2 +1,0 @@
-{"question": "q1", "sql": "select 1", "database": "DuckDB", "rows": 1, "execution_ms": null, "retries": 0, "chart": null, "created_at": "2026-05-25T14:37:16.067498+00:00"}
-{"question": "q2", "sql": "select 2", "database": "DuckDB", "rows": 1, "execution_ms": null, "retries": 0, "chart": null, "created_at": "2026-05-25T14:37:16.068383+00:00"}

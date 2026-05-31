@@ -1,6 +1,0 @@
-order_id,region,product,revenue,created_at
-1,North,Laptop,1250,2026-01-01
-2,South,Mouse,25,2026-01-02
-3,North,Monitor,300,2026-01-03
-4,West,Laptop,1300,2026-01-04
-5,South,Keyboard,80,2026-01-05

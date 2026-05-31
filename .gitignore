@@ -1,23 +1,29 @@
-.venv/
+# Python
 __pycache__/
 *.pyc
-
-.env
-
-.cache/
 .pytest_cache/
 
-.streamlit/secrets.toml
+# Virtual Environment
+.venv/
+venv/
 
-logs/
-data/uploads/
-
-*.db
-
+# IDE
 .idea/
 .vscode/
 
-dist/
-build/
+# Environment
+.env
 
-.DS_Store
+# Cache
+cache/*
+!cache/.gitkeep
+
+# Logs
+logs/*
+
+# Database files
+*.duckdb
+*.wal
+
+# Query history
+*.jsonl
