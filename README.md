@@ -102,28 +102,9 @@ sequenceDiagram
 
 ## SQL Validation Pipeline
 
-```mermaid
-flowchart TD
-
-    A["Generated SQL"]
-    B["SQLGlot Parse"]
-    C["Reject Multi Statements"]
-    D["Allow SELECT/WITH Only"]
-    E["Validate Tables"]
-    F["Validate Columns"]
-    G["Validate Joins"]
-    H["Inject LIMIT"]
-    I["Execute Query"]
-
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
-    F --> G
-    G --> H
-    H --> I
-```
+<p align="center">
+<img src="assets/sqlvalidation.png" width="900">
+</p>
 
 ---
 
