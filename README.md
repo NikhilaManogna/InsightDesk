@@ -61,33 +61,9 @@ InsightDesk is a natural language analytics tool that converts business question
 
 ## Architecture
 
-```mermaid
-flowchart LR
-
-    User["User Question"]
-
-    User --> Orchestrator["Analysis Orchestrator"]
-
-    Orchestrator --> Schema["Schema Loader"]
-    Orchestrator --> RAG["Schema Retrieval"]
-    Orchestrator --> SQLGen["SQL Generator"]
-
-    Schema --> SQLGen
-    RAG --> SQLGen
-
-    SQLGen --> Validator["SQL Validation Layer"]
-
-    Validator --> Executor["Query Executor"]
-
-    Executor --> Charts["Visualization Engine"]
-    Executor --> Insights["Insight Generator"]
-    Executor --> Cache["Cache Layer"]
-
-    Charts --> Dashboard["Dashboard UI"]
-    Insights --> Dashboard
-
-    Dashboard --> User
-```
+<p align="center">
+<img src="assets/architecture.png" width="900">
+</p>
 
 ---
 
